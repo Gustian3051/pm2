@@ -73,17 +73,45 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  assets:
+    - assets/images/
+
+  fonts:
+      # Raleway font
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.woff
+          weight: 400
+        - asset: assets/fonts/Raleway-Medium.woff
+          weight: 500
+        - asset: assets/fonts/Raleway-Bold.woff
+          weight: 700
+
+    # Monserrat font
+    - family: Monserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.woff
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.woff
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.woff
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.woff
+          weight: 700
+        - asset: assets/fonts/Montserrat-Black.woff
+          weight: 800
+        - asset: assets/fonts/Montserrat-ExtraBold.woff
+          weight: 900
+        - asset: assets/fonts/Montserrat-thin.woff
+          weight: 100
+        - asset: assets/fonts/Montserrat-Light.woff
+          weight: 300
+        - asset: assets/fonts/Montserrat-ExtraLight.woff
+          weight: 200
+        - asset: assets/fonts/Montserrat-BlackItalic.woff
+          weight: 900
+          style: italic
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
